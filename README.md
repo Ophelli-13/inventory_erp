@@ -45,10 +45,10 @@ Status Atual
 Plano Diário de Desenvolvimento (7 Dias)
 
 Dia 1 — Fundação do Projeto  
-[ ] Criação do repositório  
-[ ] Estrutura de pastas  
-[ ] Configuração inicial do Flask  
-[ ] Arquivo `.env` e configurações básicas  
+[x] Criação do repositório  
+[x] Estrutura de pastas  
+[x] Configuração inicial do Flask  
+[x] Arquivo `.env` e configurações básicas  
 
 Dia 2 — Banco de Dados e Infraestrutura  
 [ ] Configuração do MySQL  
