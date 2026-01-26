@@ -51,10 +51,10 @@ Dia 1 — Fundação do Projeto
 [x] Arquivo `.env` e configurações básicas  
 
 Dia 2 — Banco de Dados e Infraestrutura  
-[ ] Configuração do MySQL  
-[ ] Conexão com SQLAlchemy  
-[ ] Setup de migrations  
-[ ] Criação do banco  
+[x] Configuração do MySQL  
+[x] Conexão com SQLAlchemy  
+[x] Setup de migrations  
+[x] Criação do banco  
 
 Dia 3 — Modelagem do Domínio  
 [ ] Model `Product`  
