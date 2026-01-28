@@ -57,16 +57,16 @@ Dia 2 — Banco de Dados e Infraestrutura
 [x] Criação do banco  
 
 Dia 3 — Modelagem do Domínio  
-[ ] Model `Product`  
-[ ] Model `Category`  
-[ ] Model `Supplier`  
-[ ] Relacionamentos entre entidades  
+[x] Model `Product`  
+[x] Model `Category`  
+[x] Model `Supplier`  
+[x] Relacionamentos entre entidades  
 
 Dia 4 — Movimentação de Estoque  
-[ ] Model `StockMovement`  
-[ ] Repositórios  
-[ ] Registro de movimentações  
-[ ] Histórico persistente  
+[x] Model `StockMovement`  
+[x] Repositórios  
+[x] Registro de movimentações  
+[x] Histórico persistente  
 
 Dia 5 — Regras de Negócio  
 [ ] ProductService  
