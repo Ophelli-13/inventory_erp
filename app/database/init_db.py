@@ -6,6 +6,5 @@ from app.models.stock_movement import StockMovement
 
 
 def init_db(app):
-    """Inicia o banco de dados"""
     db.init_app(app)
     migrate.init_app(app, db)
