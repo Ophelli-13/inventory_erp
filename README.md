@@ -69,25 +69,25 @@ Dia 4 — Movimentação de Estoque
 [x] Histórico persistente  
 
 Dia 5 — Regras de Negócio  
-[ ] ProductService  
-[ ] InventoryService  
-[ ] StockMovementService  
-[ ] Validação de estoque negativo  
-[ ] Alerta de estoque mínimo  
+[x] ProductService  
+[x] InventoryService  
+[x] StockMovementService  
+[x] Validação de estoque negativo  
+[x] Alerta de estoque mínimo  
 
 Dia 6 — API REST  
-[ ] Rotas de produtos  
-[ ] Rotas de categorias  
-[ ] Rotas de fornecedores  
-[ ] Rotas de estoque  
-[ ] Schemas de validação  
+[x] Rotas de produtos  
+[x] Rotas de categorias  
+[x] Rotas de fornecedores  
+[x] Rotas de estoque  
+[x] Schemas de validação  
 
 Dia 7 — Testes e Finalização  
-[ ] Testes de serviços  
-[ ] Testes de regras críticas  
-[ ] Documentação da API (Postman)  
-[ ] Revisão geral  
-[ ] Projeto finalizado  
+[x] Testes de serviços  
+[x] Testes de regras críticas  
+[x] Documentação da API (Postman)  
+[x] Revisão geral  
+[x] Projeto finalizado  
 
 Visão de Futuro
 
@@ -98,3 +98,25 @@ Inventory ERP é pensado como um projeto técnico sólido, realista e evolutivo,
 - Projeto de portfólio alinhado com padrões de mercado  
 
 O objetivo é consolidar fundamentos fortes e entregar um sistema funcional, organizado e profissional em curto prazo.
+
+
+## 🚀 Como rodar o projeto
+1. Clone o repositório.
+2. Crie um ambiente virtual: `python -m venv venv`.
+3. Instale as dependências: `pip install -r requirements.txt`.
+4. Configure o `.env` com suas credenciais MySQL.
+5. Execute: `python run.py`.
+
+## 🛣️ Endpoints Principais
+| Rota | Método | Descrição |
+| :--- | :--- | :--- |
+| `/api/products` | GET | Lista todos os produtos |
+| `/api/products` | POST | Cadastra um novo produto |
+| `/api/stock/move` | POST | Realiza entrada/saída de estoque |
+| `/api/categories` | GET | Lista categorias |
+
+## 🛡️ Regras de Negócio Implementadas
+- Validação de saldo insuficiente (Erro 400).
+- Registro automático de histórico para cada movimentação.
+- Alerta de estoque crítico no log do servidor.
+ 
